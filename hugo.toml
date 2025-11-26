@@ -1,0 +1,30 @@
+baseurl = "https://hassan-azizi.github.io/"
+title = "Muhammad Hassan"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = false
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  # animateStyle = "animated zoomIn fast"
+  description = "Your site description" 
+  animateStyle = "animate-fade-up"  # animation style
+  
+  [[params.navlinks]]
+  name = "about/"
+  url = "/about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "/posts/"
+  
+  [[params.navlinks]]
+  name = "photos/"
+  url = "/photos/"
+
+  [[params.navlinks]]
+  name = "projects/"
+  url = "/projects/"
